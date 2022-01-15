@@ -59,43 +59,16 @@ Changing BA000000 0000/BA000000 0090* to BA `<CoreCount>` 0000 0000/BA `<CoreCou
 
 ## SMBios
 
-The machine configured is an `MacPro7,1`.
-
-As per the guide, use [GenSMBios](https://github.com/corpnewt/GenSMBIOS) to generate valid serials.
+The machine configured is an `MacPro7,1`. As per the guide, use [GenSMBios](https://github.com/corpnewt/GenSMBIOS) to 
+generate valid serials.
 
 You will need to update the following keys in `Config.plist` under `EFI/OC/Config.plist`. All keys reside under 
-`PlatformInfo`
+`PlatformInfo`.
 
 - `MLB`    
 - `ROM`
 - `SystemSerialNumber`
 - `SystemUUID`
-
-
-```
-<dict>
-    <key>AdviseFeatures</key>
-    <false/>
-    <key>MLB</key>
-    <string>Update here</string>
-    <key>MaxBIOSVersion</key>
-    <false/>
-    <key>ProcessorType</key>
-    <integer>0</integer>
-    <key>ROM</key>
-    <data></data>
-    <key>SpoofVendor</key>
-    <true/>
-    <key>SystemMemoryStatus</key>
-    <string>Auto</string>
-    <key>SystemProductName</key>
-    <string>MacPro7,1</string>
-    <key>SystemSerialNumber</key>
-    <string></string>
-    <key>SystemUUID</key>
-    <string></string>
-</dict>
-```
 
 ## Credits
 
