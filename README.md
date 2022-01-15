@@ -4,7 +4,7 @@ OpenCore 0.7.4 EFI configuration for macOS Monterey 12.01 running on a ASUS Cros
 AMD Ryzen 7 5800x.
 
 Inspired by the fantastic Guide by AudioGod on the [AMD OSX Forums](https://forum.amd-osx.com/index.php?threads/audiogods-asus-rog-strix-x570-e-gaming-big-sur-monterey-beta-opencore-0-7-4-efi.1685/)
-and the OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
+and the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
 
 # What's Working
 
@@ -44,7 +44,7 @@ Space to reveal the option). You should do this every time you upgrade or make c
 
 ## Core Count
 Core Count patch needs to be modified to boot your system. Find the two algrey - Force cpuid_cores_per_package patches 
-and alter the Replace value only.
+and alter the replace value only.
 
 Changing BA000000 0000/BA000000 0090* to BA `<CoreCount>` 0000 0000/BA `<CoreCount>` 0000 0090* substituting 
 `<CoreCount>` with the hexadeciamal value matching your physical core count.
