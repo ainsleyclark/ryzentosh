@@ -49,6 +49,14 @@ and alter the Replace value only.
 Changing BA000000 0000/BA000000 0090* to BA `<CoreCount>` 0000 0000/BA `<CoreCount>` 0000 0090* substituting 
 `<CoreCount>` with the hexadeciamal value matching your physical core count.
 
+| Cor Count | Hexadecimal | 
+|-----------|:-----------:|
+| 6 Core    |     06      | 
+| 8 Core    |     08      | 
+| 12 Core   |     0C      | 
+| 16 Core   |     10      | 
+| 32 Core   |     20      | 
+
 ## SMBios
 
 The machine configured is an `MacPro7,1`.
@@ -75,9 +83,7 @@ You will need to update the following keys in `Config.plist` under `EFI/OC/Confi
     <key>ProcessorType</key>
     <integer>0</integer>
     <key>ROM</key>
-    <data>
-    aNvKvFUv
-    </data>
+    <data></data>
     <key>SpoofVendor</key>
     <true/>
     <key>SystemMemoryStatus</key>
