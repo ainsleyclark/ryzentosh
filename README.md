@@ -3,7 +3,7 @@
 OpenCore 0.7.4 EFI configuration for macOS Monterey 12.01 running on a ASUS Crosshair VII Hero X570 motherboard with an
 AMD Ryzen 7 5800x.
 
-Inspired by the fantastic Guide by AudioGod on the [AMD OSX Forums](https://forum.amd-osx.com/index.php?threads/audiogods-asus-rog-strix-x570-e-gaming-big-sur-monterey-beta-opencore-0-7-4-efi.1685/)
+Inspired by the fantastic guide by AudioGod on the [AMD OSX Forums](https://forum.amd-osx.com/index.php?threads/audiogods-asus-rog-strix-x570-e-gaming-big-sur-monterey-beta-opencore-0-7-4-efi.1685/)
 and the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
 
 # What's Working
