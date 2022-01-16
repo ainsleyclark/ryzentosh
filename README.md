@@ -6,6 +6,8 @@ AMD Ryzen 7 5800x.
 Inspired by the fantastic guide by AudioGod on the [AMD OSX Forums](https://forum.amd-osx.com/index.php?threads/audiogods-asus-rog-strix-x570-e-gaming-big-sur-monterey-beta-opencore-0-7-4-efi.1685/)
 and the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
 
+![Monterey Screenshot](./screenshot.jpg)
+
 ## Specs
 
 - CPU: Ryzen 5800x
@@ -29,7 +31,7 @@ and the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Gui
 | SATA                                  |   ✅    | Native                                                                                                       |
 | USB                                   |   ✅    | via USBMap.kext                                                                                              |
 | On-Board audio                        |   ✅    | [AppleALC](https://github.com/acidanthera/AppleALC) working                                                  |
-| Intel AX200 Bluetooth                 |   ✅    | apparently native (USB)                                                                                      |
+| Intel AX200 Bluetooth                 |   ❓    | Not tested                                                                                                   |
 | Intel AX200 Wi-Fi                     |   ❌    | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) could perhaps do the trick. I use wired ethernet. |
 | Realtek 2.5gbps ethernet              |   ✅    | via [LucyRTL8125Ethernet.kext](https://github.com/Mieze/LucyRTL8125Ethernet)                                 |
 | Sapphire Pulse RX580                  |   ✅    | via [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen)                                       |
